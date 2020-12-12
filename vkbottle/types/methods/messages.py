@@ -210,7 +210,7 @@ class MessagesEdit(BaseMethod):
     async def __call__(
         self,
         peer_id: int,
-        message_id: int,
+        message_id: int = None,
         conversation_message_id: int = None,
         message: str = None,
         lat: typing.Any = None,
