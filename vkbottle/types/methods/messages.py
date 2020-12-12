@@ -211,6 +211,7 @@ class MessagesEdit(BaseMethod):
         self,
         peer_id: int,
         message_id: int,
+        conversation_message_id: int = None,
         message: str = None,
         lat: typing.Any = None,
         long: typing.Any = None,
